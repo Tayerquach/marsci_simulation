@@ -1,4 +1,10 @@
-# Marsci Simulation
+Marsci Simulation
+========================
+
+<p align = "center" draggable=”false” ><img src="https://github.com/Tayerquach/brain_decoding_model/blob/master/photo/marsci_logo.png" 
+     width="200px"
+     height="auto"/>
+</p>
 
 <h1 align="center" id="heading"> An Open Source Method to Generate Data for Marketing</h1>
 
