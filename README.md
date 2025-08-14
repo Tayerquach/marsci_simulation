@@ -49,8 +49,11 @@ This project follows an 8-step process adapted from the [siMMMulator](https://fa
    Add noise to true conversion rates for each channel to reflect measurement variability.
 
 6. **Transforming Media Variables**  
-   6.1 **Pivoting the table to an MMM format** – Convert campaign-level data into daily-format datasets suitable for modeling.  
-   6.2 **Applying Adstock** – Apply carryover effects using geometric decay.  
+
+   6.1 **Pivoting the table to an MMM format** – Convert campaign-level data into daily-format datasets suitable for modeling.
+
+   6.2 **Applying Adstock** – Apply carryover effects using geometric decay. 
+    
    6.3 **Applying Diminishing Returns to Media Variables** – Apply an S-curve transformation to account for saturation effects.
 
 7. **Calculating Conversions**  
