@@ -29,6 +29,39 @@ marsci_simulation/
 
 ---
 
+## Simulation Workflow
+
+This project follows an 8-step process adapted from the [siMMMulator](https://facebookexperimental.github.io/siMMMulator/docs/step_by_step_guide), implemented in Python with modifications for session and conversion modeling.
+
+1. **Define Basic Parameters**  
+   Initialize the simulation setup: years, channel names, campaign frequency, conversion rates, revenue per conversion, and start date.
+
+2. **Simulate Daily Baseline Sales**  
+   Generate baseline (non-ad) sales with seasonal patterns, growth trend, and random noise.
+
+3. **Generate Ad Spend**  
+   Simulate ad spend allocation across channels and campaigns based on given proportions.
+
+4. **Generate Media Variables**  
+   Produce daily impressions, clicks, sessions, and spend metrics from ad spend and CPM/CPC values.
+
+5. **Generate Noisy CVRs**  
+   Add noise to true conversion rates for each channel to reflect measurement variability.
+
+6. **Transforming Media Variables**  
+   6.1 **Pivoting the table to an MMM format** – Convert campaign-level data into daily-format datasets suitable for modeling.  
+   6.2 **Applying Adstock** – Apply carryover effects using geometric decay.  
+   6.3 **Applying Diminishing Returns to Media Variables** – Apply an S-curve transformation to account for saturation effects.
+
+7. **Calculating Conversions**  
+   Multiply transformed media variables by conversion rates to compute conversions per channel.
+
+8. **Generate Final DataFrame**  
+   Combine all metrics into the final dataset, including actual and self-reported values, daily noise, total conversions, and revenue.
+
+
+---
+
 ## Running the Simulation
 
 ### 1. Run in Google Colab (Recommended)
