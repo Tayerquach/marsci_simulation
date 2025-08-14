@@ -1,6 +1,8 @@
 # Marsci Simulation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mBd3pJVEVQ6wusy7DNQcVvfsOVjsvakJ?usp=sharing)
+<h1 align="center" id="heading"> An Open Source Method to Generate Data for Marketing</h1>
+
+[![Python][Python.py]][Python-url]
 
 A Python-based simulation framework for generating synthetic marketing and sales data, applying adstock and diminishing returns transformations, and visualizing results for marketing mix modeling (MMM) experiments.
 
@@ -44,7 +46,7 @@ You can run the notebook directly in Google Colab without installing anything lo
 ### 2. Run Locally
 
 #### **Prerequisites**
-- Python 3.8+
+- Python
 - Jupyter Notebook or JupyterLab
 - pip package manager
 
@@ -63,7 +65,7 @@ venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 ```
 
-#### **Run the Notebook**
+#### **Run the Notebook [![Jupyter][jupyterlab.ipynb]][jupyterlab-url]**
 ```bash
 jupyter notebook pySimul.ipynb
 ```
@@ -225,3 +227,10 @@ Contributions are welcome!
 5. Open a Pull Request
 
 ---
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Python.py]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Python-url]: https://www.python.org/
+
+[jupyterlab.ipynb]: https://shields.io/badge/JupyterLab-Try%20GraphScope%20Now!-F37626?logo=jupyter
+[jupyterlab-url]: https://justinbois.github.io/bootcamp/2020_fsri/lessons/l01_welcome.html
