@@ -67,7 +67,7 @@ This project follows an 8-step process adapted from the [siMMMulator](https://fa
 
 ## Running the Simulation
 
-### 1. Run in Google Colab (Recommended)
+### 1. Run in Google Colab
 You can run the notebook directly in Google Colab without installing anything locally:
 
 1. Click this badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mBd3pJVEVQ6wusy7DNQcVvfsOVjsvakJ?usp=sharing)
