@@ -53,7 +53,7 @@ This project follows an 8-step process adapted from the [siMMMulator](https://fa
    6.1 **Pivoting the table to an MMM format** – Convert campaign-level data into daily-format datasets suitable for modeling.
 
    6.2 **Applying Adstock** – Apply carryover effects using geometric decay. 
-    
+
    6.3 **Applying Diminishing Returns to Media Variables** – Apply an S-curve transformation to account for saturation effects.
 
 7. **Calculating Conversions**  
@@ -70,7 +70,7 @@ This project follows an 8-step process adapted from the [siMMMulator](https://fa
 ### 1. Run in Google Colab (Recommended)
 You can run the notebook directly in Google Colab without installing anything locally:
 
-1. Click this badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mBd3pJVEVQ6wusy7DNQcVvfsOVjsvakJ?usp=sharing).
+1. Click this badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mBd3pJVEVQ6wusy7DNQcVvfsOVjsvakJ?usp=sharing)
 
 2. In the first cell, clone the repository:
    ```python
