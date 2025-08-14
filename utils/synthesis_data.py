@@ -786,7 +786,7 @@ def generate_noisy_cvr(
             col = f"noisy_cvr_{ch}_after_running_day_{n}"
             df[col] = np.where(df["channel"] == ch, df["noisy_cvr"], 0.0)
 
-    print("You have completed running step 4: Simulating conversion rates.")
+    print("Simulating conversion rates: Done!")
     return df
 
 
