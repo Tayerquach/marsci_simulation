@@ -1,10 +1,7 @@
 MMM Simulation
 ========================
 
-<p align=”center” draggable=”false” style=”margin: 8px 0;”><img src=”https://raw.githubusercontent.com/Tayerquach/marsci_simulation/master/logo/marsci_logo.png” 
-     width=”400px”
-     height=”auto”/>
-</p>
+![MarSci Logo](logo/marsci_logo.png)
 
 <h1 align="center" id="heading"> An Open Source Method to Generate Data for Marketing</h1>
 
