@@ -2,7 +2,7 @@ Marsci Simulation
 ========================
 
 <p align = "center" draggable=”false” ><img src="https://github.com/Tayerquach/marsci_simulation/blob/master/logo/marsci_logo.png" 
-     width="200px"
+     width="400px"
      height="auto"/>
 </p>
 
