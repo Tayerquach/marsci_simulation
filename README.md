@@ -1,7 +1,7 @@
 MMM Simulation
 ========================
 
-<p align=”center” draggable=”false” style=”margin: 8px 0;”><img src=”https://github.com/Tayerquach/marsci_simulation/blob/master/logo/marsci_logo.png” 
+<p align=”center” draggable=”false” style=”margin: 8px 0;”><img src=”https://raw.githubusercontent.com/Tayerquach/marsci_simulation/master/logo/marsci_logo.png” 
      width=”400px”
      height=”auto”/>
 </p>
