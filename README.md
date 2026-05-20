@@ -1,5 +1,3 @@
-MMM Simulation
-========================
 <p align="center"><img src="logo/marsci_logo.png" width="300px"/></p>
 <h1 align="center" id="heading"> An Open Source Method to Generate Data for Marketing</h1>
 
