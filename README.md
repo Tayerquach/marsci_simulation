@@ -1,8 +1,6 @@
 MMM Simulation
 ========================
-
-![MarSci Logo](logo/marsci_logo.png)
-
+<p align="center"><img src="logo/marsci_logo.png" width="300px"/></p>
 <h1 align="center" id="heading"> An Open Source Method to Generate Data for Marketing</h1>
 
 [![Python][Python.py]][Python-url]
